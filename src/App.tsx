@@ -12,7 +12,7 @@ const App = () => {
   const page = params.page || '';
 
   if (page) {
-    if (page === 'hieu-he-thong-tu-goc-nhin-user-khung-phan-tich.html') {
+    if (page === 'hieu-he-thong-tu-goc-nhin-user-khung-phan-tich') {
       return <TheSystemFromUserVision />;
     } else {
       return <Home />;
